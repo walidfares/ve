@@ -1,0 +1,349 @@
+
+.container_voz {
+    
+    padding-top: 1em;
+    margin-top: 1em;
+    line-height: 1.8;
+    border-bottom: 5px;
+    border-top: 5px;
+    border-style: solid;
+    border-color: var(--laranja);
+    margin-bottom: 1em;
+    justify-content: center;
+}
+.conteudo_voz {
+    
+    padding-bottom: 0.5em;
+    justify-content: center;
+    width: 100%;
+}
+.whatsapp {
+    background-color: var(--laranja);
+    border-radius: 10%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.title_voz {
+    font-size: 24px;
+    font-weight: bold;
+    color:var(--laranja);
+    text-transform: uppercase;
+    border-radius: 10px;
+ 
+    margin-bottom:0.3em ;
+    align-items: center;
+    text-align: center;
+}
+
+.texto_voz {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 1em;
+    color:var(--brown);
+    
+    
+} 
+.dublagem {
+    display: flex;
+    justify-self: center;
+}  
+.dubs1 {
+    
+    
+    padding-right: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    align-items: initial;
+    width: 40vw
+   
+    
+    
+}
+.dubs2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    align-items: initial;
+    width: 40vw;
+    
+}
+.container_publico {
+    line-height: 1.8;
+    
+    align-items: initial;
+    justify-content: center;
+    
+    
+    
+    
+}
+.conteudo_publico {
+    font-size: 16px;
+    padding-bottom: 1em;
+    text-align: justify;
+    
+    
+    display: flex;
+    
+    
+    
+}
+.texto {
+    margin-left: 2em;
+    
+}
+.title_publico {
+    font-size: 20px;
+    font-weight: bold;
+    color:var(--laranja);
+    border-radius: 10px;
+   
+    margin-bottom:0.2em ;
+   
+}
+.texto_publico {
+    font-size: 18px;
+    padding-bottom: 1em;
+    color:var(--brown);
+    
+}
+
+
+
+.vantagens {
+    font-size: 24px;
+    font-weight: bold;
+    color:var(--laranja);
+    text-transform: uppercase;
+    padding: 1em;
+    margin-bottom:0.3em ;
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
+    border-top: 3px;
+    border-style: solid;
+    border-color: var(--yellow);
+    
+}
+.container_vantagens {
+    line-height: 1.8;
+    display: flex;
+    align-items: initial;
+    
+    font-size: 16px;
+    margin-bottom: 1em;
+    text-align: justify;  
+}
+.img_vantagens {
+    margin-right: 2em;
+   
+}
+.title_vantagens {
+    font-size: 20px;
+    font-weight: bold;
+    color:var(--laranja);
+    border-radius: 10px;
+    margin-bottom:0.2em ;
+   
+}
+.texto_vantagens {
+    font-size: 18px;
+    padding-bottom: 1em;
+    color:var(--brown);
+   
+    
+    
+    
+}
+.vantagem_flex{
+    display: flex;
+    align-items: initial;
+    justify-self: center;
+    
+    
+    
+   
+}
+.vantagens1 {
+    
+    
+    
+    justify-content: center;
+    padding-right: 3em;
+    width: 39vw;
+}
+.vantagens2 {
+   
+    
+    
+    justify-content: center;
+    width: 39vw;
+   
+}
+.vantagens3 {
+    
+    justify-content: center;
+    width: 39vw;
+}
+@media screen and (max-width: 1024px) {
+    .conteudo_voz {
+    
+        padding-bottom: 0.5em;
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .container_publico {
+        line-height: 1.8;
+        
+        align-items: initial;
+        justify-content: center;
+        
+        
+        
+        
+    }
+    
+    .conteudo_publico {
+        font-size: 16px;
+        padding-bottom: 1em;
+        text-align: left;
+        align-items: initial;
+        
+        
+        display: flex;
+        
+        
+        
+    }
+    .texto {
+        margin-left: 10px;
+        
+    }
+    .title_publico {
+        font-size: 16px;
+        font-weight: bold;
+        color:var(--laranja);
+        border-radius: 10px;
+        text-align: left;
+        margin-bottom:0.2em ;
+       
+    }
+    .texto_publico {
+        font-size: 14px;
+        padding-bottom: 1em;
+        color:var(--brown);
+        text-align: justify;
+        
+    }
+    .title_voz {
+        font-size: 18px;
+        font-weight: bold;
+        color:var(--laranja);
+        text-transform: uppercase;
+        border-radius: 10px;
+     
+        margin-bottom:0.3em ;
+        align-items: center;
+        text-align: center;
+    }
+    .texto_voz {
+        font-size: 16px;
+        text-align: center;
+        padding-bottom: 1em;
+        color:var(--brown);
+        
+        
+    }
+    .dublagem {
+        display: block;
+        justify-self: center;
+        
+    } 
+    .dubs1 {
+    
+        
+        padding-right: 2em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        align-items: center;
+        width: 78vw;
+       
+        
+        
+    }
+    .dubs2 {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        align-items: initial;
+        width: 78vw;
+        
+    }
+    .vantagem_flex{
+        display: block;
+        align-items: initial;
+        justify-self: center;
+        
+        
+        
+       
+    }
+  
+  
+    .vantagens1 {
+    
+    
+    
+        justify-content: center;
+        
+        width: 78vw;
+    }
+    .vantagens2 {
+       
+        
+        
+        justify-content: center;
+        width: 78vw;
+       
+    }
+    .vantagens3 {
+        
+        justify-content: center;
+        width: 78vw;
+    }
+    .vantagens {
+        font-size: 18px;
+        font-weight: bold;
+        color:var(--laranja);
+        text-transform: uppercase;
+        padding: 1em;
+        margin-bottom:0.3em ;
+        align-items: center;
+        text-align: center;
+        text-decoration: underline;
+        border-top: 3px;
+        border-style: solid;
+        border-color: var(--yellow);
+        
+    }
+    .title_vantagens {
+        font-size: 16px;
+        font-weight: bold;
+        color:var(--laranja);
+        border-radius: 10px;
+        margin-bottom:0.2em ;
+        text-align: left;
+       
+    }
+    .texto_vantagens {
+        font-size: 14px;
+        padding-bottom: 1em;
+        color:var(--brown);
+    }
+       
+    .img_mobile {
+        
+        width: 7vw;
+        align-items: center;
+    }
+}
