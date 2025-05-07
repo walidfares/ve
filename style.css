@@ -118,7 +118,7 @@ body {
 .videoedit {
     font-size: 20px;
     font-weight: bold;
-    color:#edd732;
+    color:var(--laranja);
     border-radius: 10px;
     text-transform: uppercase;
     margin-bottom:0.2em ;
