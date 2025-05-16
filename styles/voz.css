@@ -7,7 +7,7 @@
     border-bottom: 5px;
     border-top: 5px;
     border-style: solid;
-    border-color: var(--laranja);
+    border-color: var(--brown);
     margin-bottom: 1em;
     justify-content: center;
 }
@@ -122,7 +122,7 @@
     text-decoration: underline;
     border-top: 3px;
     border-style: solid;
-    border-color: var(--yellow);
+    border-color: var(--brown);
     
 }
 .container_vantagens {
