@@ -1,0 +1,38 @@
+ 
+ .custom-audio {
+     border-width: 2px;
+      border-color:#e9cd1c; ;
+      border-style: solid;
+      border-radius: 4px;
+      outline: none;
+      
+    }
+    
+    audio.custom-audio::-webkit-media-controls-panel {
+      background-color: transparent;
+    }
+    audio.custom-audio::-webkit-media-controls-current-time-display,
+    audio.custom-audio::-webkit-media-controls-time-remaining-display,
+    audio.custom-audio::-webkit-media-controls-timeline {
+      color: var(--laranja);
+    }
+    audio.custom-audio::-webkit-media-controls-play-button {
+      background-color: transparent;
+    }
+ 
+ audio.custom-audio::-webkit-media-controls-play-button {
+      background-color:#e9cd1c;
+      border-radius: 40%;
+      ;
+    }
+     audio.custom-audio::-webkit-media-controls-panel {
+      background-color:  white;
+      
+    }
+    .meu-video {
+  width: 240px;
+  max-width: 240px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  text-align: center;
+}

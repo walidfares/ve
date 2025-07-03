@@ -1,0 +1,457 @@
+
+.container_voz {
+    
+    
+    margin-top: 1em;
+    line-height: 1.8;
+    
+    justify-content: center;
+}
+.conteudo_voz {
+    
+    padding-bottom: 0.5em;
+    justify-content: center;
+    width: 100%;
+    
+}
+.whatsapp {
+    background-color: var(--laranja);
+    border-radius: 10%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.title_voz {
+    font-size: 24px;
+    font-weight: bold;
+    color:var(--laranja);
+    text-transform: uppercase;
+    border-radius: 10px;
+ 
+    margin-bottom:0.3em ;
+    align-items: center;
+    text-align: center;
+}
+
+.texto_voz {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 1em;
+    color:var(--brown);
+    font-weight: 700;
+    text-transform: uppercase;
+    
+    
+} 
+.dublagem {
+    display: flex;
+    justify-content:center;
+    align-items: initial;
+    
+}  
+.dubs1 {
+    
+    margin-top: 1em;
+    margin-bottom: 1em;
+    align-items: initial;
+    padding-right: 2em;
+    width:500px;
+    
+    
+   
+}
+.dubs2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    align-items: initial;
+    padding-left:2em ;
+    text-align: left;
+    width:500px;
+    
+    
+    
+    
+}
+.container_publico {
+    line-height: 1.5;
+    
+    align-items: initial;
+    
+}
+.conteudo_publico {
+    font-size: 16px;
+    
+    text-align: left;
+    
+    
+    padding-bottom: 0.5em;
+    display: flex;
+    
+    
+    
+}
+.texto {
+    margin-left: 2em;
+    
+}
+.title_publico {
+    font-size: 20px;
+    font-weight: bold;
+    color:var(--laranja);
+    border-radius: 10px;
+   
+    margin-bottom:0.2em ;
+   
+}
+.texto_publico {
+    font-size: 18px;
+    padding-bottom: 1em;
+    color:var(--brown);
+    
+}
+
+
+
+.vantagens {
+    font-size: 24px;
+    font-weight: bold;
+    color:var(--yellow);
+    text-transform: uppercase;
+    padding: 0.3em;
+    margin-bottom:2em ;
+    align-items: center;
+    text-align: center;
+    
+    background-color: var(--brown);
+   
+    
+}
+.vantagem_flex{
+    display: flex;
+    align-items: initial;
+    justify-content: center;
+}
+.vantagens1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    align-items: initial;
+    padding-right: 2em;
+    width:500px;
+    
+}
+.vantagens2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    align-items: initial;
+    padding-left:2em ;
+    text-align: left;
+    width:500px;
+}
+.container_vantagens {
+    line-height: 1.5;
+    display: flex;
+    align-items: initial;
+    
+    font-size: 16px;
+    margin-bottom: 1em;
+     
+}
+.img_vantagens {
+    margin-right: 2em;
+   
+}
+.title_vantagens {
+    font-size: 20px;
+    font-weight: bold;
+    color:var(--laranja);
+    border-radius: 10px;
+    margin-bottom:0.2em ;
+    
+   
+}
+.texto_vantagens {
+    font-size: 18px;
+    padding-bottom: 0.5em;
+    color:var(--brown);
+    
+   
+    
+    
+    
+}
+
+
+
+.img_mobile {
+    
+    width: 50px;
+    align-items: initial;
+}
+.texto-chamada {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.audio-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.audio-container {
+    align-items: center;
+    margin-top: 1em;
+    text-align: center;
+    margin:1em;
+}
+.title_audio {
+      font-size: 16px;
+      font-weight: bold;
+      color:var(--yellow);
+      margin-bottom:2em ;
+      text-transform: uppercase;
+      background-color: var(--brown);
+      border-radius: 4px;
+    }
+    .texto_audio {
+      font-size: 14px;
+      text-transform: uppercase;
+      color:var(--brown);
+      font-weight: bold;
+      align-items: center;
+      margin-bottom: 1em;
+    }
+    .videos_ve_top {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 8em;
+      margin-bottom: 2em;
+    }
+    .videos_ve {
+        display: none;
+    }
+   
+.chamada {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--laranja);
+    text-align: center;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+.botao {
+    display: inline-block;
+    background-color: var(--laranja);
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0.5em;
+}
+
+@media screen and (max-width: 1024px) {
+    .conteudo_voz {
+    
+        padding-bottom: 0.5em;
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .container_publico {
+        line-height: 1.8;
+        
+        align-items: initial;
+        justify-content: center;
+        
+        
+        
+        
+    }
+    
+    .conteudo_publico {
+        font-size: 16px;
+        padding-bottom: 1em;
+        text-align: left;
+        align-items: initial;
+        
+        
+        display: flex;
+        
+        
+        
+    }
+    .texto {
+        margin-left: 15px;
+        
+    }
+    .title_publico {
+        font-size: 16px;
+        font-weight: bold;
+        color:var(--laranja);
+        border-radius: 10px;
+        text-align: left;
+        margin-bottom:0.2em ;
+       
+    }
+    .texto_publico {
+        font-size: 14px;
+        padding-bottom: 1em;
+        color:var(--brown);
+        text-align: justify;
+        
+    }
+    .title_voz {
+        font-size: 18px;
+        font-weight: bold;
+        color:var(--laranja);
+        text-transform: uppercase;
+        border-radius: 10px;
+     
+        margin-bottom:0.3em ;
+        align-items: center;
+        text-align: center;
+    }
+    .texto_voz {
+        font-size: 14px;
+        text-align: center;
+        padding-bottom: 1em;
+        color:var(--brown);
+        
+        
+    }
+    .dublagem {
+        display: block;
+        justify-self: center;
+        
+    } 
+    .dubs1 {
+    
+        
+        
+        margin-top: 1em;
+        margin-bottom: 0em;
+        align-items: center;
+        padding-left: 0em;
+        width: 80vw;
+       
+        
+        
+    }
+    .dubs2 {
+        margin-top: 0em;
+        margin-bottom: 1em;
+        align-items: initial;
+        padding-left: 0em ;
+        width: 80vw;
+    }
+    .vantagem_flex{
+        display: block;
+        justify-self: center;
+    }
+  
+    .vantagens1 {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding-left:none ;
+        width: 80vw;
+    } 
+    .vantagens2 {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding-left:0em ;
+        width: 80vw;
+    
+      
+       
+    }
+   
+    .vantagens {
+        font-size: 18px;
+        font-weight: bold;
+        color:var(--yellow);
+        text-transform: uppercase;
+        padding: 0.4em;
+        margin-bottom:2em ;
+        align-items: center;
+        text-align: center;
+        
+        
+        
+    }
+    .title_vantagens {
+        font-size: 16px;
+        font-weight: bold;
+        color:var(--laranja);
+        border-radius: 10px;
+        margin-bottom:0.2em ;
+        text-align: left;
+       
+    }
+    .texto_vantagens {
+        font-size: 14px;
+        padding-bottom: 1em;
+        
+    }
+    .img_vantagens {
+        margin-right: 15px;
+        
+    }
+       
+    .img_mobile {
+        
+        width: 30px;
+        align-items: center;
+    }
+    .texto-chamada {
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .chamada {
+        font-size: 18px;
+        font-weight: bold;
+        color: var(--laranja);
+        text-align: center;
+        margin-bottom: 0.5em;
+    }
+    .audio-box {
+    display: block;
+    
+}
+.videos_ve {
+     display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 2em;
+    }
+    .videos_ve_top {
+        display: none;
+    }
+    .title_video {
+        
+        font-size: 16px;
+        font-weight: bold;
+        color:var(--yellow);
+        margin-bottom:1em ;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: var(--brown);
+        border-radius: 4px;
+        width: 95%;
+        justify-self: center;
+        margin-bottom: 2em;
+    }
+    
+    .botao {
+        display: block;
+        background-color: var(--laranja);
+        color: white;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        text-decoration: none;
+        margin: 0.5em;
+    }
+}
